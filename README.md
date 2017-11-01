@@ -24,3 +24,13 @@ MIGX inputs
         {"header": "4", "width": "160", "sortable": "true", "dataIndex": "img"},
         {"header": "5", "width": "160", "sortable": "true", "dataIndex": "list1"}
     ]
+    
+----------------------------
+-- Call to chunk on page --
+----------------------------
+    [[getImageList?
+        &tvname=`features-icon-text`
+        &tpl=`features-icon-text`
+        &docid=`1`
+        &where=`{'':''}`
+    ]]
