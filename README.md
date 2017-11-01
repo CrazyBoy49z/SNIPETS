@@ -26,11 +26,11 @@ MIGX inputs
     ]
     
 ----------------------------
--- Call to chunk on page --
+-- Call to inputs on page --
 ----------------------------
     [[getImageList?
-        &tvname=`features-icon-text`
-        &tpl=`features-icon-text`
+        &tvname=`features-icon-text` // TV inputs
+        &tpl=`features-icon-text`    // Chunk
         &docid=`1`
         &where=`{'':''}`
     ]]
