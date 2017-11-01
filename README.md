@@ -15,6 +15,6 @@ MIGX inputs
 -- Content of columns --
 ------------------------
 [
-  {"header": "Название акции", "width": "160", "sortable": "true", "dataIndex": "title"},
-  {"header": "Описание акции", "width": "160", "sortable": "true", "dataIndex": "text"}
+    {"header": "Название акции", "width": "160", "sortable": "true", "dataIndex": "title"},
+    {"header": "Описание акции", "width": "160", "sortable": "true", "dataIndex": "text"}
 ]
