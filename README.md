@@ -34,3 +34,7 @@ MIGX inputs
         &docid=`1`
         &where=`{'':''}`
     ]]
+----------------------------
+-- Resizing for images --
+----------------------------
+       [[phpthumbof? &input=`[[+img]]` &options=`w=590&h=390&zc=1`]]
