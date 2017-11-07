@@ -37,4 +37,10 @@ MIGX inputs
 ----------------------------
 -- Resizing for images --
 ----------------------------
+
        [[phpthumbof? &input=`[[+img]]` &options=`w=590&h=390&zc=1`]]
+       
+----------------------------
+-- Title from page --
+----------------------------
+       [[#[[+page]].pagetitle]]
