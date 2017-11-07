@@ -9,7 +9,7 @@ MIGX inputs
       {"caption":"", "fields": [
         {"field":"title","caption":"h2 Название"},
         {"field":"text","caption":"Текст"},
-        {"field":"description","caption":"Description","inputTV":"richtext"},
+        {"field":"description","caption":"Description","inputTVtype":"richtext"},
         {"field":"img", "caption":"Изображение", "inputTVtype":"image"},
         {"field":"list1","caption":"Выбор из списка","inputTVtype":"listbox","inputOptionValues":"первый==1||втоорой==2||третий==3"}
       ]}
