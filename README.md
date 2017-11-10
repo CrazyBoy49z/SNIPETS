@@ -44,3 +44,9 @@ MIGX inputs
 -- Title from page --
 ----------------------------
        [[#[[+page]].pagetitle]]
+       
+----------------------------
+-- Get TV From main page --
+----------------------------
+
+       [[pdoField? &id=`1` &field=`logo`]]
