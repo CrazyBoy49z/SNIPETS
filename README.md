@@ -43,7 +43,8 @@ MIGX inputs
 ----------------------------
 -- Title from page --
 ----------------------------
-       [[#[[+page]].pagetitle]]
+       [[#1.pagetitle]]
+       //link http://modx.ws/poluchenie-polej-roditelya-modx
        
 ----------------------------
 -- Get TV From main page --
