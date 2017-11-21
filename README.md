@@ -51,3 +51,17 @@ MIGX inputs
 ----------------------------
 
        [[pdoField? &id=`1` &field=`logo`]]
+
+----------------------------
+-- pdoResources for itemBlock --
+----------------------------
+
+        [[pdoResources? 
+            &parents=`59`
+            &depth=`0`
+            &tpl=`uslugi-ceni-item`
+            &includeTVs=`uslugi-ceni-cost, background-page`
+            &processTVs=`uslugi-ceni-cost, background-page`
+            &where=`{"uslugi-ceni-cost:!=":""}`
+            &limit=`0`
+        ]]
