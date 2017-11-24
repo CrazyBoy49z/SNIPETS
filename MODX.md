@@ -57,11 +57,11 @@ MIGX inputs
 ----------------------------
 
         [[pdoResources? 
-            &parents=`59`
+            &parents=`59` || &parents=`[[*id]]`
             &depth=`0`
             &tpl=`uslugi-ceni-item`
             &includeTVs=`uslugi-ceni-cost, background-page`
             &processTVs=`uslugi-ceni-cost, background-page`
-            &where=`{"uslugi-ceni-cost:!=":""}`
+            &where=`{"uslugi-ceni-cost:!=":""}` || &sortby=`{'object-cost'}`
             &limit=`0`
         ]]
