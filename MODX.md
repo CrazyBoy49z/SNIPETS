@@ -44,6 +44,7 @@ MIGX inputs
 -- Title from page --
 ----------------------------
        [[#1.pagetitle]]
+       [[~[[#[[*id]].parent]]~]]
        //link http://modx.ws/poluchenie-polej-roditelya-modx
        
 ----------------------------
