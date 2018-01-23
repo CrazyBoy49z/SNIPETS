@@ -1,7 +1,7 @@
 ------------------
 Переотрисовка браузером анимаций
 ------------------
-	function raf(fn){
+	function raf(fn){ //fn - функция, в которой анимации нужно перендерить
 		window.requestAnimationFrame(function(){
 			window.requestAnimationFrame(function(){
 				fn();
