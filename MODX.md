@@ -2,9 +2,9 @@
 SNIPETS MIGX, MODX, PHP, JS, JQ, CSS, PYTHON, HTML
 
 MIGX inputs
-------------------
--- Content tabs --
-------------------
+------------------------
+Content tabs 
+------------------------
     [
       {"caption":"", "fields": [
         {"field":"title","caption":"h2 Название"},
@@ -15,7 +15,7 @@ MIGX inputs
       ]}
     ]
 ------------------------
--- Content of columns --
+Content of columns
 ------------------------
     [
         {"header": "1", "width": "160", "sortable": "true", "dataIndex": "title"},
@@ -26,7 +26,7 @@ MIGX inputs
     ]
     
 ----------------------------
--- Call to inputs on page --
+Call to inputs on page
 ----------------------------
     [[getImageList?
         &tvname=`features-icon-text` // TV inputs
@@ -35,26 +35,26 @@ MIGX inputs
         &where=`{'':''}`
     ]]
 ----------------------------
--- Resizing for images --
+Resizing for images
 ----------------------------
 
        [[phpthumbof? &input=`[[+img]]` &options=`w=590&h=390&zc=1`]]
        
 ----------------------------
--- Title from page --
+Title from page
 ----------------------------
        [[#1.pagetitle]]
        [[~[[#[[*id]].parent]]~]]
        //link http://modx.ws/poluchenie-polej-roditelya-modx
        
 ----------------------------
--- Get TV From main page --
+Get TV From main page
 ----------------------------
 
        [[pdoField? &id=`1` &field=`logo`]]
 
 ----------------------------
--- pdoResources for itemBlock --
+pdoResources for itemBlock
 ----------------------------
 
         [[pdoResources? 
