@@ -1,11 +1,10 @@
 ------------------
 Переотрисовка браузером анимаций
 ------------------
-
-function raf(fn){
-	window.requestAnimationFrame(function(){
+	function raf(fn){
 		window.requestAnimationFrame(function(){
-			fn();
+			window.requestAnimationFrame(function(){
+				fn();
+			})
 		})
-	})
-}
+	}
