@@ -66,3 +66,12 @@ pdoResources for itemBlock
             &where=`{"uslugi-ceni-cost:!=":""}` || &sortby=`{'object-cost'}`
             &limit=`0`
         ]]
+        
+----------------------------
+Получить список тегов
+----------------------------
+
+        [[!tagLister?
+            &tv=`sovet-tags`
+            &tpl=`sovet-article-categories-tag`
+        ]]
