@@ -30,14 +30,14 @@
 ------------------
 Делегирование событий
 ------------------
-	var btnSendCallBack = $('button.btn-send');
-	btnSendCallBack.on('click',function(event){
-		var target = event.target;
-		while(target != 'FORM'){
-		    if(target.tagName == 'FORM'){
-			console.log('нашли нужный элемент')
-			return;
-		    }
-		    target = target.parentNode;
-		}  
-    	})
+    var btnSendCallBack = $('button.btn-send');
+    btnSendCallBack.on('click',function(event){
+        var target = event.target;
+        while(target != 'FORM'){
+            if(target.tagName == 'FORM'){
+                console.log('нашли нужный элемент')
+                return;
+            }
+            target = target.parentNode;
+        }  
+    })
