@@ -41,3 +41,9 @@
             target = target.parentNode;
         }  
     })
+------------------
+Убрать выделение текста
+------------------
+<div ondblclick="alert('Тест')" onselectstart="return false" onmousedown="return false">
+  Двойной клик сюда выведет "Тест", без выделения
+</div>
